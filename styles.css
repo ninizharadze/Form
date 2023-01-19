@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-image: url("../Form/images/bg.png");
+    
+    background-attachment: fixed;
+}
+form{
+    width: 750px;
+    margin-left: 600px;
+}
+form  p{
+    color: white;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight:lighter;
+    font-family:monospace;
+}
+
+form input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    
+}
+form .surname, .number, .name, .address{
+background-color: white;
+    opacity: 50%;
+    border: none;
+    border-bottom: 2px solid white;
+}
+
+form label{
+    font-weight: bold;
+}
+.name, .surname, .number{
+    height: 70px;
+}
+.address{
+    height: 153px;
+}
+textarea{
+    width: 750px;
+    height: 153px;
+    margin-top: 20px;
+}
+.barati, .cash{
+    flex-direction: row;
+}
+.reg input[type="submit"]{
+    width: 750px;
+    height: 70px;
+    background-color: #01AF8C;
+    border-bottom: 2px solid black;
+}
+.reg input[type="submit"]:hover{
+    background-color: #0c6855;
+    cursor: pointer;
+}
+.reg input[type="checkbox"]{
+    width: 10%;
+}
+.box{
+    width: 750px;
+    height: 394px;
+    background-color: black;
+    margin-top: 40px;
+    margin-left: 600px;
+    border-radius: 20px;
+}
+.box h1{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom: 20px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box p{
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daatvaliere input{
+    width: 750px;
+    height: 70px;
+    background-color: #F5BA22;
+    border-bottom: 1px solid black;
+    margin-left: 600px;
+    margin-top: 150px;
+    font-size: 18px;
+}
+.daatvaliere input:hover{
+    cursor: pointer;
+}
